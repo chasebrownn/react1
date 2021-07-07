@@ -28,11 +28,25 @@ function Navbar() {
         <>
             <nav className="social-media">
                 <div className="social-media-container">
-                    <img src={require('./content/images/discord-logo.png').default} className='logo'/>
-                    <img src={require('./content/images/github-logo.png').default} className='logo'/>
-                    <img src={require('./content/images/twitter-logo.png').default} className='logo'/>
-                    <img src={require('./content/images/facebook-logo.png').default} className='logo'/>
-                    <img src={require('./content/images/instagram-logo.png').default} className='logo'/>
+                    <h3 id="home"></h3>
+                    <a href="https://github.com/chasebrownn" target="_blank">
+                        <img src={require('./content/images/twitch-logo.png').default} className='logo' />
+                    </a>
+                    <a href="https://t.me/nobilitycoin" target="_blank">
+                        <img src={require('./content/images/telegram-logo.png').default} className='logo' />
+                    </a>
+                    <a href="https://github.com/chasebrownn" target="_blank">
+                        <img src={require('./content/images/github-logo.png').default} className='logo' />
+                    </a>
+                    <a href="https://twitter.com/Nobilitycoin" target="_blank">
+                        <img src={require('./content/images/twitter-logo.png').default} className='logo' />
+                    </a>
+                    <a href="https://www.reddit.com/u/nobilitycoin/?utm_source=share&utm_medium=ios_app&utm_name=iossmf" target="_blank">
+                        <img src={require('./content/images/reddit-logo.png').default} className='logo' />
+                    </a>
+                    <a href="https://www.instagram.com/nobilitycoin/" target="_blank">
+                        <img src={require('./content/images/instagram-logo.png').default} className='logo' />
+                    </a>
                 </div>
             </nav>
             <nav className="navbar">
@@ -46,18 +60,14 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu} >
-                                Home
-                            </Link>
+                            <a className= 'nav-links' href="/#home">Home</a>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/team' className='nav-links' onClick={closeMobileMenu} >
-                                Team
-                            </Link>
+                            <a className= 'nav-links' href="/#team">Team</a>
                         </li>
                         <li className='nav-item'>
                             <Link to='/products' className='nav-links' onClick={closeMobileMenu} >
-                                Community
+                                Roadmap
                             </Link>
                         </li>
                         <li className='nav-item'>

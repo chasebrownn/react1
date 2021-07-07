@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.roadmap {
+    padding: 6rem;
+    background: #111622;
+    /* background: linear-gradient(180deg, #000000 0%, #111622 100%); */
+    text-align: center;
+    align-items: center;
+}
+
+.roadmap-header {
+    padding-bottom: 4rem;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color:#7E00FF;
+    font-size: 32px;
+}

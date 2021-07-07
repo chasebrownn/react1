@@ -7,6 +7,7 @@ function Cards() {
         <div className='cards'>
             
             <div className='headings'>
+                <h3 id="team"></h3>
                 <h1>MEET THE</h1> <h2>TEAM</h2>
             </div>
             
