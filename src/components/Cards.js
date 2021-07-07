@@ -5,35 +5,39 @@ import './Cards.css';
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Check out these EPIC destinations!</h1>
+            
+            <div className='headings'>
+                <h1>MEET THE</h1> <h2>TEAM</h2>
+            </div>
+            
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
-                        <CardItem src={require('./content/images/img-9.jpg').default}
-                            text="Explore the hidden waterfall deep inside the Amazon Jungle"
-                            label="Adventure"
+                        <CardItem src={require('./content/images/mike-headshot.jpg').default}
+                            text="Mike Sancho"
+                            label="Chief Marketing Officer"
                             path="/services"
                         />
-                        <CardItem src={require('./content/images/img-2.jpg').default}
-                            text="Travel through the islands of Bali in a private cruise"
-                            label="Luxury"
+                        <CardItem src={require('./content/images/kyle-headshot.jpg').default}
+                            text="Kyle McDougal"
+                            label="Chief Executive Officer"
                             path="/services"
                         />
                     </ul>
                     <ul className="cards__items">
-                        <CardItem src={require('./content/images/img-9.jpg').default}
-                            text="Explore the hidden waterfall deep inside the Amazon Jungle"
-                            label="Adventure"
+                        <CardItem src={require('./content/images/larenzo-headshot.jpg').default}
+                            text="Larenzo Dalis"
+                            label="Twin 1"
                             path="/services"
                         />
-                        <CardItem src={require('./content/images/img-2.jpg').default}
-                            text="Travel through the islands of Bali in a private cruise"
-                            label="Luxury"
+                        <CardItem src={require('./content/images/alonzo-headshot.jpg').default}
+                            text="Alonzo Dalis"
+                            label="Twin 2"
                             path="/services"
                         />
-                        <CardItem src={require('./content/images/img-1.jpg').default}
-                            text="Relax in the hidden mountains of Thailand eliminating worry"
-                            label="Tranquility"
+                        <CardItem src={require('./content/images/meme1.jpg').default}
+                            text="Cory"
+                            label="Noble CEO"
                             path="/services"
                         />
                     </ul>

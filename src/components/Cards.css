@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background: #111622;
+    text-align: center;
   }
   
   h1 {
@@ -19,6 +20,7 @@
   .cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
+    width: 80%;
   }
   
   .cards__items {
@@ -36,12 +38,13 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(255, 56, 179, 0.123);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(255, 56, 156, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(255, 56, 116, 0.017));
+    border-radius: 7px;
     overflow: hidden;
     text-decoration: none;
+    background-color: #fff; /*color of card*/
   }
   
   .cards__item__pic-wrap {
@@ -59,14 +62,14 @@
   .cards__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
+    left: 5%;
     bottom: 0;
-    margin-left: 10px;
     padding: 6px 8px;
     max-width: calc((100%) - 60px);
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: #812EE6;
     box-sizing: border-box;
   }
   
@@ -94,9 +97,11 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    vertical-align: center;
+    color: #000;
     font-size: 18px;
     line-height: 24px;
+    font-family: 'Rubik', sans-serif;
   }
   
   @media only screen and (min-width: 1200px) {
@@ -116,3 +121,22 @@
       margin-bottom: 2rem;
     }
   }
+
+.headings {
+  padding-top: 4rem;
+}
+
+.headings > h1 {
+  text-align: center;
+    font-size: 34px;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    display: inline-block;
+}
+.headings > h2 {
+  text-align: center;
+  font-size: 34px;
+  font-family: 'Rubik', sans-serif;
+  color: #812EE6;
+  display: inline-block;
+}
