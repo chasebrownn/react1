@@ -18,7 +18,19 @@ function Hero() {
                         {/* <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>TRAILER <i className='far fa-play-circle' /></Button> */}
                     </div>
                         <div className="tokenomics-container">
-                        <div className="supply">
+                        <table>
+                            <tr>
+                                <td className="token-table"><center><h5>1 QUADRILLION</h5></center></td>
+                                <td className="token-table"><center><h5>30%</h5></center></td>
+                                <td className="token-table"><center><h5>4 Year</h5></center></td>
+                             </tr> 
+                             <tr>
+                                <td className="token-table"><center><h6>Supply</h6></center></td>
+                                <td className="token-table"><center><h6>Burn</h6></center></td>
+                                <td className="token-table"><center><h6>Liquidity Lock</h6></center></td>
+                             </tr>
+                        </table>
+                        {/* <div className="supply">
                             <h5>1 QUADRILLION</h5>
                             <h6>SUPPLY</h6>
                         </div>
@@ -29,7 +41,7 @@ function Hero() {
                         <div className="liquidity-lock">
                             <h5>4 YEAR</h5>
                             <h6>LIQUIDITY LOCK</h6>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div> 
