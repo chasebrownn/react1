@@ -3,7 +3,7 @@
 .news-feed {
     display: flex;
     padding: 6rem;
-    background-color: white;
+    background: black;
     text-align: center;
     align-items: center;
 }
