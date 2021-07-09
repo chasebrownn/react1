@@ -4,46 +4,54 @@ import './Cards.css';
 
 function Cards() {
     return (
-        <div className='cards'>
+        <div className='cards pt-5'>
             
-            <div className='headings'>
-                <h3 id="team"></h3>
-                <h1>MEET THE</h1> <h2>TEAM</h2>
+            <div className='headings rubik mb-5'>
+                <h1 className="text-white">
+                    MEET THE <span className="text-highlight">TEAM</span>
+                </h1>
             </div>
             
-            <div className="cards__container">
-                <div className="cards__wrapper">
-                    <ul className="cards__items">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-12 col-lg-4">
                         <CardItem src={require('./content/images/mike-headshot.jpg').default}
                             text="Mike Sancho"
                             label="Chief Marketing Officer"
                             path="/services"
                         />
+                    </div>
+                    <div className="col-12 col-lg-4">
                         <CardItem src={require('./content/images/kyle-headshot.jpg').default}
                             text="Kyle McDougal"
                             label="Chief Executive Officer"
                             path="/services"
                         />
-                    </ul>
-                    <ul className="cards__items">
+                    </div>
+                    <div className="col-12 col-lg-4">
                         <CardItem src={require('./content/images/larenzo-headshot.jpg').default}
                             text="Larenzo Dalis"
                             label="Twin 1"
                             path="/services"
                         />
+                    </div>
+                    <div className="col-12 col-lg-4">
                         <CardItem src={require('./content/images/alonzo-headshot.jpg').default}
                             text="Alonzo Dalis"
                             label="Twin 2"
                             path="/services"
                         />
+                    </div>
+                    <div className="col-12 col-lg-4">
                         <CardItem src={require('./content/images/meme1.jpg').default}
                             text="Cory"
                             label="Noble CEO"
                             path="/services"
                         />
-                    </ul>
+                    </div>
                 </div>
             </div>
+
         </div>
     )
 }

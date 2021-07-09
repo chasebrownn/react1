@@ -27,8 +27,8 @@ function Navbar() {
     return (
         <>
             <nav className="social-media">
-                <div className="social-media-container">
-                    <h3 id="home"></h3>
+                <div className="container">
+                    <h3 id="home" className="m-0"></h3>
                     <a href="https://github.com/chasebrownn" target="_blank">
                         <img src={require('./content/images/twitch-logo.png').default} className='logo' />
                     </a>
@@ -49,32 +49,33 @@ function Navbar() {
                     </a>
                 </div>
             </nav>
-            <nav className="navbar">
-                <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
-                        NOBILITY
-                        {/* <i className="fab fa-typo3" onClick={closeMobileMenu}></i> */}
-                    </Link>
-                    <div className='menu-icon' onClick={handleClick}>
-                        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+
+            <nav class="navbar navbar-expand-lg navbar-dark custom-nav w-100 my-0 sticky-top">
+                <div className="container">
+                    <a class="navbar-brand" href="#">
+                        Nobility
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Roadmap</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Buy Now</a>
+                            </li>
+                        </ul>
                     </div>
-                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        <li className='nav-item'>
-                            <a className= 'nav-links' href="/#home">Home</a>
-                        </li>
-                        <li className='nav-item'>
-                            <a className= 'nav-links' href="/#team">Team</a>
-                        </li>
-                        <li className='nav-item'>
-                            <a className='nav-links' href="/#roadmap">RoadMap</a>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu} >
-                                Buy
-                            </Link>
-                        </li>
-                    </ul>
-                    {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
                 </div>
             </nav>
         </>

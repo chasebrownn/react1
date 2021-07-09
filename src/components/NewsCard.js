@@ -4,18 +4,20 @@ import { Link } from 'react-router-dom';
 function NewsCard(props) {
     return (
         <>
-            <li className="news__item">
-                <Link className="news__item__link" to={props.path}>
-                    <figure className="news__item__pic-wrap" data-category={props.label}>
-                        <img className="news__item__img" src={props.src} alt="Travel Image" />
-                    </figure>
-                    <div className="news__item__info">
-                        <h5 className="news__item__text">{props.text}</h5>
-                        <button className="news__item__button">{props.button}</button>
-                    </div>
-                </Link>
-            </li>
-            <h3 id="roadmap"></h3>
+            <div className={"card "+props.variant}>
+                <img src={props.src} className="card-img-top"/>
+
+                <div className="news-label text-center">
+                    {props.label}
+                </div>
+
+                <div className="card-body">
+                    <p>{props.text}</p>
+                    <button className="btn btn-primary news-button btn-lg w-100">
+                        {props.button}
+                    </button>
+                </div>
+            </div>
         </>
     )
 }

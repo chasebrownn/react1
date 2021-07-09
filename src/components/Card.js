@@ -4,16 +4,19 @@ import { Link } from 'react-router-dom';
 function Card(props) {
     return (
         <>
-            <li className="cards__item">
-                <Link className="cards__item__link" to={props.path}>
-                    <figure className="cards__item__pic-wrap" data-category={props.label}>
-                        <img className="cards__item__img" src={props.src} alt="Travel Image" />
-                    </figure>
-                    <div className="cards__item__info">
-                        <h5 className="cards__item__text">{props.text}</h5>
+            <div className="card news-card mb-4">
+                <div className="team-image">
+                    <img src={props.src} className="card-img-top"/>
+
+                    <div className="team-label text-white">
+                        {props.label}
                     </div>
-                </Link>
-            </li>
+                </div>
+                    
+                <div className="card-body">
+                    <h5 className="cards__item__text">{props.text}</h5>
+                </div>
+            </div>
         </>
     )
 }
