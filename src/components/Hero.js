@@ -16,8 +16,11 @@ function Hero() {
                         <h1>NOBILITY</h1>
                         <p>Nobility is a cryptocurrency token that will revolutionize the esports landspace by injecting the industry with high quality offerings, prize pools, and tournaments.</p>
                         
-                        <div className="hero-button">
-                            <a href="/signup" className="btn btn-primary btn-lg px-5">Buy Now</a>
+                        <div className="d-flex">
+                            <div className="hero-button">
+                                <a href="/signup" className="btn btn-primary btn-lg px-5">Buy Now</a>
+                            </div>
+                            {/* <img src={require('./content/images/pancakeswap-header-logo.png').default} className="pancake-img"/> */}
                         </div>
 
                         <div class="d-flex mt-5 text-center">
@@ -34,6 +37,24 @@ function Hero() {
                                 <h6 className="mb-0">Liquidity Lock</h6>
                             </div>
                         </div>
+                        {/* <div class="d-flex mt-5 text-center">
+                            <div>
+                                <h5 className="mb-0">4%</h5>
+                                <h6 className="mb-0">Liquidity Pool</h6>
+                            </div>
+                            <div className="px-5">
+                                <h5 className="mb-0">4%</h5>
+                                <h6 className="mb-0">Redistribution</h6>
+                            </div>
+                            <div>
+                                <h5 className="mb-0">1%</h5>
+                                <h6 className="mb-0">Prize Pool</h6>
+                            </div>
+                            <div className="px-5">
+                                <h5 className="mb-0">1%</h5>
+                                <h6 className="mb-0">Buy-back & Burn</h6>
+                            </div>
+                        </div> */}
 
                     </div>
                 </div>

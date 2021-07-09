@@ -3,7 +3,7 @@
 
 .navbar {
     /*background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);*/
-    background: #111622;
+    background: #12161f;
     height: 78px;
     display: flex;
     justify-content: center;
@@ -12,6 +12,8 @@
     font-size: 16px;
     z-index: 1000;
 }
+
+
 
 .social-media {
     background-color: #812EE6;
@@ -23,7 +25,7 @@
 
 
 .custom-nav {
-  background-color: #111622;
+  background-color: #171D29;
 }
   /*.social-media-container {
     margin: auto;

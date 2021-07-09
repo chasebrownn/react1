@@ -15,16 +15,16 @@ function Cards() {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-12 col-lg-4">
-                        <CardItem src={require('./content/images/mike-headshot.jpg').default}
-                            text="Mike Sancho"
-                            label="Chief Marketing Officer"
+                        <CardItem src={require('./content/images/kyle-headshot.jpg').default}
+                            text="Kyle McDougal"
+                            label="Chief Executive Officer"
                             path="/services"
                         />
                     </div>
                     <div className="col-12 col-lg-4">
-                        <CardItem src={require('./content/images/kyle-headshot.jpg').default}
-                            text="Kyle McDougal"
-                            label="Chief Executive Officer"
+                        <CardItem src={require('./content/images/mike-headshot.jpg').default}
+                            text="Mike Sancho"
+                            label="Chief Marketing Officer"
                             path="/services"
                         />
                     </div>

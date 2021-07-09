@@ -4,6 +4,7 @@ import Hero from '../Hero';
 import Team from '../Cards';
 import Roadmap from '../Roadmap';
 import News from '../News';
+import Footer from '../Footer';
 
 function Home () {
     return (
@@ -12,6 +13,7 @@ function Home () {
             <News/>
             <Roadmap />
             <Team />
+            <Footer/>
         </>
     )
 }

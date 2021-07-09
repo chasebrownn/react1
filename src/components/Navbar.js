@@ -52,7 +52,7 @@ function Navbar() {
 
             <nav class="navbar navbar-expand-lg navbar-dark custom-nav w-100 my-0 sticky-top">
                 <div className="container">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand rubik" href="#">
                         Nobility
                     </a>
 

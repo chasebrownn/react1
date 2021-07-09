@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@500;700;900&display=swap');
 
 
+
 .news-card {
   background-color: #7E00FF;
   color: white;
+  border-radius: 8px;
 }
 
 .news-card-dark {
   background-color:#222836;
   color: white;
+  border-radius: 8px;
 }
 
 .news-label {
