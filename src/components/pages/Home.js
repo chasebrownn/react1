@@ -4,6 +4,7 @@ import Hero from '../Hero';
 import News from '../News';
 import Roadmap from '../Roadmap';
 import Tokenomics from '../Tokenomics';
+import Brand from '../Brand';
 import Team from '../Cards';
 import Footer from '../Footer';
 
@@ -14,6 +15,7 @@ function Home () {
             <News/>
             <Roadmap />
             <Tokenomics />
+            <Brand />
             <Team />
             <Footer/>
         </>
