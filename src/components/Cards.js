@@ -17,14 +17,14 @@ function Cards() {
                     <div className="col-12 col-lg-4">
                         <CardItem src={require('./content/images/kyle-headshot.jpg').default}
                             text="Kyle McDougal"
-                            label="Chief Executive Officer"
+                            label="CEO"
                             path="/services"
                         />
                     </div>
                     <div className="col-12 col-lg-4">
                         <CardItem src={require('./content/images/mike-headshot.jpg').default}
                             text="Mike Sancho"
-                            label="Chief Marketing Officer"
+                            label="CMO"
                             path="/services"
                         />
                     </div>
