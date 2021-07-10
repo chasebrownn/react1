@@ -4,7 +4,7 @@
 
 .roadmap {
     padding: 1rem;
-    background: #111622;
+    background: #171d29;
     /* background: linear-gradient(180deg, #000000 0%, #111622 100%); */
     text-align: center;
     align-items: center;
@@ -12,6 +12,10 @@
 
 .roadmap-header {
     padding-bottom: 4rem;
+}
+
+.roadmap-display {
+    padding-bottom: 7rem;
 }
 
 h2 {

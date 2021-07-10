@@ -1,9 +1,10 @@
 import React from 'react';
 import '../../App.css';
 import Hero from '../Hero';
-import Team from '../Cards';
-import Roadmap from '../Roadmap';
 import News from '../News';
+import Roadmap from '../Roadmap';
+import Tokenomics from '../Tokenomics';
+import Team from '../Cards';
 import Footer from '../Footer';
 
 function Home () {
@@ -12,6 +13,7 @@ function Home () {
             <Hero />
             <News/>
             <Roadmap />
+            <Tokenomics />
             <Team />
             <Footer/>
         </>

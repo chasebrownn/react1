@@ -11,7 +11,10 @@ function Roadmap() {
                         <h3>2021</h3>
                     </div>
                 </div>
-                <img src={require('./content/images/roadmap.png').default} className="roadmap-img" />
+
+                <div className="roadmap-display">
+                    <img src={require('./content/images/roadmap.png').default} className="roadmap-img" />
+                </div>
             </div>
         </div>
     )
