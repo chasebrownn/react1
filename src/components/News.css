@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@500;700;900&display=swap');
 
-
+.news-cards {
+  padding: 6rem;
+  background: #111622;
+}
 
 .news-card {
   background-color: #7E00FF;
