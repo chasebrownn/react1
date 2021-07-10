@@ -138,3 +138,16 @@ h6 {
 .fa-play-circle {
     margin-left: 4px;
 }
+
+.pulse {
+    animation: pulse-info 2s infinite;
+}
+
+@keyframes pulse-info {
+    0% {
+        box-shadow:0 0 0 0 #7f25c9;
+   }
+    100% {
+        box-shadow:0 0 0 8px #28a74500;
+   }
+}

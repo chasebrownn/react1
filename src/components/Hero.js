@@ -18,9 +18,13 @@ function Hero() {
                         
                         <div className="d-flex">
                             <div className="hero-button">
-                                <a href="/signup" className="btn btn-primary btn-lg px-5">Buy Now</a>
+
+                                <div className="btn btn-primary pulse btn-lg px-5"
+                                    onClick={() => {
+                                        window.open("https://exchange.pancakeswap.finance/#/swap", "_blank")
+                                    }}
+                                >Buy Now {'   '}<img style={{ maxHeight: "1.5em" }} src={require('./content/images/services/pancakeswap.png').default} alt="Pancakeswap" /></div>
                             </div>
-                            {/* <img src={require('./content/images/pancakeswap-header-logo.png').default} className="pancake-img"/> */}
                         </div>
 
                         <div class="d-flex mt-5 text-center">
