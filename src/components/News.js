@@ -8,7 +8,7 @@ function Cards() {
     return (
         <>
             <div className="news-cards">
-                <Container className="large-container py-5">
+                <Container className="large-container">
                     <Row className="align-items-center pb-5">
                         <Col xs={12} xl={3}>
                             <div data-aos="zoom-in">
