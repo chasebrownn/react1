@@ -9,7 +9,7 @@ function Cards() {
                 <div className="row">
                     <div className="col-sm-12 col-lg-3">
                         <NewsItem src={require('./content/images/news1-header.png').default}
-                            text="Nobility token NBL will be available for trade on Pancake Swap for Binance Coin aka BNB starting July 12th exclusively on the Pancake Swap platform."
+                            text="Nobility token (NBL) will be available for trade on PancakeSwap via BSC (Binance Smart Chain) starting July 12th beginning exclusively on the PancakeSwap platform."
                             label="FAIR LAUNCH"
                             path="/launch"
                             variant="news-card"
@@ -29,8 +29,8 @@ function Cards() {
 
                     <div className="col-sm-12 col-lg-3">
                         <NewsItem src={require('./content/images/news3-header.png').default}
-                            text="Nobility token NBL will be available for trade on CoinMarketCap and other exchanges soon following launch within our first quarter."
-                            label="LIST ON CMC"
+                            text="Nobility token (NBL) will be featured on CoinMarketCap, CoinGecko, and other tracking websites following the launch. We're looking to list on our first exchange in Q1."
+                            label="FEATURED LISTINGS"
                             path="/launch"
                             variant="news-card"
                             button="COMING SOON"
@@ -39,7 +39,7 @@ function Cards() {
 
                     <div className="col-sm-12 col-lg-3">
                         <NewsItem src={require('./content/images/news4-header.png').default}
-                            text="The Nobility community plans to throw major LAN esports tournaments with big gamers, influencers, and content creators."
+                            text="With community involvement, the Nobility team will be hosting major LAN esports tournaments with big gamers, influencers, and content creators!"
                             label="FIRST TOURNAMENT"
                             path="/launch"
                             variant="news-card-dark"
