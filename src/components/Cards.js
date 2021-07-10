@@ -5,13 +5,15 @@ import './Cards.css';
 function Cards() {
     return (
         <div className='team-cards'>
-            
+
             <div className='headings rubik mb-5'>
-                <h1 className="text-white">
-                    MEET THE <span className="text-highlight">TEAM</span>
-                </h1>
+                <div data-aos="zoom-in-up">
+                    <h1 className="text-white">
+                        MEET THE <span className="text-highlight">TEAM</span>
+                    </h1>
+                </div>
             </div>
-            
+
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-12 col-lg-4">
