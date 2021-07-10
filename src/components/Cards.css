@@ -14,13 +14,13 @@
     text-align: center;
 }
 
-.card-img-top{
+.team-cards .card-img-top{
   -webkit-transition: transform 1s ease-in-out;
   -moz-transition: transform 1s ease-in-out;
   transition: transform 1s ease-in-out;
 }
 
-.card-img-top:hover{
+.team-cards .card-img-top:hover{
   -moz-transform: scale(1.07);
   -webkit-transform: scale(1.07);
   -o-transform: scale(1.07);
@@ -29,18 +29,18 @@
   transform: scale(1.07);
 }
 
-.headings h1 {
+.team-cards .headings h1 {
     font-weight: 900 !important;
 }
 
-.team-image {
+.team-cards .team-image {
   position: relative;
   width: 100%;
   background-size: cover;
   overflow: hidden;
 }
 
-.team-label {
+.team-cards .team-label {
   position: absolute;
   bottom: 0;
   left: 30px;
@@ -51,7 +51,7 @@
   background-color: #7E00FF;
 }
 
-h5.cards__item__text{
+.team-cards h5.cards__item__text{
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   color: black;
