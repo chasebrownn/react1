@@ -4,7 +4,7 @@ import './Cards.css';
 
 function Cards() {
     return (
-        <div className='cards pt-5'>
+        <div className='team-cards'>
             
             <div className='headings rubik mb-5'>
                 <h1 className="text-white">

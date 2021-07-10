@@ -8,7 +8,7 @@ function Card(props) {
                 <div className="team-image">
                     <img src={props.src} className="card-img-top"/>
 
-                    <div className="team-label text-white">
+                    <div className="team-label text-highlight">
                         {props.label}
                     </div>
                 </div>
