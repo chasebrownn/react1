@@ -7,6 +7,7 @@ function Cards() {
         <div className='team-cards'>
 
             <div className='headings rubik mb-5'>
+                <a name="team"></a>
                 <div data-aos="zoom-in-up">
                     <h1 className="text-white">
                         MEET THE <span className="text-highlight">TEAM</span>
@@ -51,6 +52,15 @@ function Cards() {
                             path="/services"
                         />
                     </div>
+                    <div className="col-12 col-lg-4">
+                        <CardItem src={require('./content/images/Matt-Headshot.jpg').default}
+                            text="Matthew Merrill"
+                            label="Elevate Developer"
+                            path="/services"
+                        />
+                    </div>
+
+
                 </div>
             </div>
 

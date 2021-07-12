@@ -66,10 +66,10 @@ function Navbar() {
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Team</a>
+                                <a class="nav-link" href="#roadmap">Roadmap</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Roadmap</a>
+                                <a class="nav-link" href="#team">Team</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Buy Now</a>
