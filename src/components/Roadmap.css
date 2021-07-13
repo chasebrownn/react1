@@ -3,9 +3,8 @@
 
 
 .roadmap {
-    padding: 10rem;
+    padding-top: 10rem;
     background: #171d29;
-    /* background: linear-gradient(180deg, #000000 0%, #111622 100%); */
     text-align: center;
     align-items: center;
 }
