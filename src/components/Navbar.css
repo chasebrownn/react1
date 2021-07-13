@@ -21,7 +21,8 @@
      z-index: 998;
 }
  .custom-nav {
-     background-color: #171D29;
+    background-color: rgb(23, 29, 41, 0.9);
+    border-bottom: 1px solid;
 }
 /*.social-media-container {
      margin: auto;
@@ -51,6 +52,7 @@
  .icons{
      height: 20px;
      padding-left: 15px;
+     padding-top: 5px;
 }
  .icons:hover {
      cursor: pointer;

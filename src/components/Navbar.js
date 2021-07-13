@@ -32,13 +32,13 @@ function Navbar() {
                     <a href="https://github.com/chasebrownn" target="_blank">
                         <img src={require('./content/images/twitch-logo.png').default} className='icons' />
                     </a>
-                    <a href="https://t.me/nobilitycoin" target="_blank">
+                    <a href="https://t.me/nobilitytoken" target="_blank">
                         <img src={require('./content/images/telegram-logo.png').default} className='icons' />
                     </a>
                     <a href="https://github.com/chasebrownn" target="_blank">
                         <img src={require('./content/images/github-logo.png').default} className='icons' />
                     </a>
-                    <a href="https://twitter.com/Nobilitycoin" target="_blank">
+                    <a href="https://twitter.com/nobilitytoken?s=21" target="_blank">
                         <img src={require('./content/images/twitter-logo.png').default} className='icons' />
                     </a>
                     <a href="https://www.reddit.com/u/nobilitycoin/?utm_source=share&utm_medium=ios_app&utm_name=iossmf" target="_blank">
@@ -63,13 +63,13 @@ function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="/#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#roadmap">Roadmap</a>
+                                <a class="nav-link" href="/#roadmap">Roadmap</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#team">Team</a>
+                                <a class="nav-link" href="/#team">Team</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Buy Now</a>

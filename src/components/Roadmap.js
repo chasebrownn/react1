@@ -3,7 +3,7 @@ import './Roadmap.css';
 
 function Roadmap() {
     return (
-        <div className="roadmap" id="roadmap">
+        <div className="roadmap">
             <div className="roadmap-container">
                 <div className="roadmap-header">
                     <div data-aos="zoom-in-up">

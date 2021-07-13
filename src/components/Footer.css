@@ -1,5 +1,4 @@
 .page-footer {
-    background-color: #171D29;
-    color: white;
-    height: 70px;
+    background-color: rgb(23, 29, 41, 0.9);
+    color: rgba(255, 255, 255, 0.55);
 }

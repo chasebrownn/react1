@@ -3,9 +3,8 @@
 
 
 .roadmap {
-    padding: 1rem;
+    padding-top: 10rem;
     background: #171d29;
-    /* background: linear-gradient(180deg, #000000 0%, #111622 100%); */
     text-align: center;
     align-items: center;
 }
@@ -45,7 +44,6 @@ h2 {
 }
 
 
-body{margin-top:20px;}
 .timeline {
     border-left: 3px solid #7E00FF;
     border-bottom-right-radius: 4px;
