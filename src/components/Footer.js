@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-main">
             <div className="page-footer font-small">
 
-                <div className="footer-copyright text-center py-3">© 2020 Copyright Nobility LLC | All Rights Reserved
+                <div className="footer-copyright text-center py-4">© 2020 Copyright Nobility LLC | All Rights Reserved
                     {/* <a href="https://mdbootstrap.com/"> MDBootstrap.com</a> */}
                 </div>
 
