@@ -13,7 +13,7 @@ function Cards() {
                         <Col xs={12} xl={3}>
                             <div data-aos="zoom-in">
                                 <NewsItem className="mb-3" src={require('./content/images/news1-header.png').default}
-                                    text="Nobility token (NBL) will be available for trade on PancakeSwap via BSC (Binance Smart Chain) starting July 12th beginning exclusively on the PancakeSwap platform.    "
+                                    text="Nobility token (NBL) will be available for trade on PancakeSwap via BSC (Binance Smart Chain) starting July 13th beginning exclusively on the PancakeSwap platform.    "
                                     label="FAIR LAUNCH"
                                     path="/launch"
                                     variant="news-card"
