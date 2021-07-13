@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 .team-cards {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding:9rem 3rem 9rem 3rem;
   background-color: #171d29;
   text-align: center;
   align-items: center;
