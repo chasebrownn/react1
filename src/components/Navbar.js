@@ -41,7 +41,7 @@ function Navbar() {
                     <a href="https://twitter.com/nobilitytoken?s=21" target="_blank">
                         <img src={require('./content/images/twitter-logo.png').default} className='icons' />
                     </a>
-                    <a href="https://www.reddit.com/u/nobilitycoin/?utm_source=share&utm_medium=ios_app&utm_name=iossmf" target="_blank">
+                    <a href="https://www.reddit.com/u/nobilitytoken" target="_blank">
                         <img src={require('./content/images/reddit-logo.png').default} className='icons' />
                     </a>
                     <a href="https://www.instagram.com/nobilitycoin/" target="_blank">
