@@ -63,13 +63,13 @@ function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="/#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#roadmap">Roadmap</a>
+                                <a class="nav-link" href="/#roadmap">Roadmap</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#team">Team</a>
+                                <a class="nav-link" href="/#team">Team</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Buy Now</a>

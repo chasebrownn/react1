@@ -5,9 +5,7 @@ import './Cards.css';
 function Cards() {
     return (
         <div className='team-cards'>
-
             <div className='headings rubik mb-5'>
-                <a name="team"></a>
                 <div data-aos="zoom-in-up">
                     <h1 className="text-white">
                         MEET THE <span className="text-highlight">TEAM</span>

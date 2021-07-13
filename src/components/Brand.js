@@ -20,6 +20,7 @@ function Brand() {
                         <h2>NOBLE GAMING</h2>
                     </Col>
                 </Row>
+                <a name="team"></a>
             </Container>
         </div>
     )
