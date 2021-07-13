@@ -27,9 +27,7 @@ class Navbar extends Component {
                 <nav className="social-media">
                     <div className="container">
                         <h3 id="home" className="m-0"></h3>
-                        <a href="https://github.com/chasebrownn" target="_blank">
-                            <img src={require('./content/images/twitch-logo.png').default} className='icons' />
-                        </a>
+
                         <a href="https://t.me/nobilitytoken" target="_blank">
                             <img src={require('./content/images/telegram-logo.png').default} className='icons' />
                         </a>
@@ -39,7 +37,7 @@ class Navbar extends Component {
                         <a href="https://twitter.com/nobilitytoken?s=21" target="_blank">
                             <img src={require('./content/images/twitter-logo.png').default} className='icons' />
                         </a>
-                        <a href="https://www.reddit.com/u/nobilitycoin/?utm_source=share&utm_medium=ios_app&utm_name=iossmf" target="_blank">
+                        <a href="https://www.reddit.com/u/nobilitytoken" target="_blank">
                             <img src={require('./content/images/reddit-logo.png').default} className='icons' />
                         </a>
                         <a href="https://www.instagram.com/nobilitycoin/" target="_blank">

@@ -74,7 +74,7 @@ function Hero() {
                             </div>
                             <div className="px-5">
                                 <h5 className="mb-0">24.55%</h5>
-                                <h6 className="mb-0">Burn Rate</h6>
+                                <h6 className="mb-0">Initial Burn</h6>
                             </div>
                             <div>
                                 <h5 className="mb-0">1 Year</h5>
