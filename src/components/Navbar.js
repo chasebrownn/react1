@@ -63,25 +63,25 @@ class Navbar extends Component {
 
                             <div className="d-flex flex-column flex-lg-row text-center">
                                 <div className="flex-fill">
-                                    <a href="/" className="custom-link px-4">
+                                    <a href="/#" className="custom-link px-4">
                                         Home
                                     </a>
                                 </div>
 
                                 <div className="flex-fill">
-                                    <a href="/" className="custom-link px-4">
+                                    <a href="/#roadmap" className="custom-link px-4">
                                         Roadmap
                                     </a>
                                 </div>
 
                                 <div className="flex-fill">
-                                    <a href="/" className="custom-link px-4">
+                                    <a href="/#team" className="custom-link px-4">
                                         Team
                                     </a>
                                 </div>
 
                                 <div className="flex-fill">
-                                    <a href="/" className="custom-link px-4">
+                                    <a href="/#" className="custom-link px-4">
                                         Buy Now
                                     </a>
                                 </div>
