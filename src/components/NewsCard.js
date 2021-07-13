@@ -13,9 +13,11 @@ function NewsCard(props) {
 
                 <div className="card-body">
                     <p>{props.text}</p>
-                    <button className="btn btn-primary news-button btn-lg w-100">
-                        {props.button}
-                    </button>
+                    <a target='_blank' href={props.path}>
+                        <button className="btn btn-primary news-button btn-lg w-100">
+                            {props.button}
+                        </button>
+                    </a>
                 </div>
             </div>
         </>

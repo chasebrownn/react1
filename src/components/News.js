@@ -15,7 +15,7 @@ function Cards() {
                                 <NewsItem className="mb-3" src={require('./content/images/news1-header.png').default}
                                     text="Nobility token (NBL) will be available for trade on PancakeSwap via BSC (Binance Smart Chain) starting July 13th beginning exclusively on the PancakeSwap platform.    "
                                     label="FAIR LAUNCH"
-                                    path="/launch"
+                                    path="https://exchange.pancakeswap.finance/#/swap"
                                     variant="news-card"
                                     button="BUY NOW"
                                 />
@@ -26,7 +26,6 @@ function Cards() {
                                 <NewsItem className="mb-3" src={require('./content/images/news2-header.png').default}
                                     text="The Nobility community discord server will be launching very soon! Here we’ll release the latest news on tournaments and exclusive news for our Nobility members.      "
                                     label="NOBILITY DISCORD"
-                                    path="/launch"
                                     variant="news-card-dark"
                                     button="COMING SOON"
                                 />
@@ -37,7 +36,6 @@ function Cards() {
                                 <NewsItem className="mb-3" src={require('./content/images/news3-header.png').default}
                                     text="Nobility token (NBL) will be featured on CoinMarketCap, CoinGecko, and other tracking websites following the launch. We're looking to list on our first exchange in Q1."
                                     label="FEATURED LISTINGS"
-                                    path="/launch"
                                     variant="news-card"
                                     button="COMING SOON"
                                 />
@@ -48,9 +46,8 @@ function Cards() {
                                 <NewsItem className="mb-3" src={require('./content/images/news4-header.png').default}
                                     text="With community involvement, the Nobility team will be hosting major LAN esports tournaments with big gamers, influencers, and content creators!‎‎‎‎ Expect updates on this soon!"
                                 label="FIRST TOURNAMENT"
-                                path="/launch"
                                 variant="news-card-dark"
-                                button="COMING SOON"
+                                button="Coming Soon"
                                 />
                                 <a name="roadmap"></a>
                             </div>
