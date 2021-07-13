@@ -1,85 +1,108 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { Button } from './Button';
 
-function Navbar() {
-    const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
+class Navbar extends Component {
 
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
+    componentDidMount() {
+        let toggle   = document.getElementById("toggleMenu");
+        let menu     = document.getElementById("navmenu");
+        let closeBtn = document.getElementById("closebtn");
 
-    const showButton = () => {
-        if (window.innerWidth <= 960) {
-            setButton(false);
-        } else {
-            setButton(true);
-        }
-    };
+        toggle.addEventListener("click", function(event) {
+            event.preventDefault();
+            menu.classList.toggle("open");
+        });
 
-    useEffect(() => {
-        showButton();
-    }, []);
+        closeBtn.addEventListener("click", function(event) {
+            event.preventDefault();
+            menu.classList.remove("open");
+        });
+    }
 
-    window.addEventListener('resize', showButton);
+    render() {
+        return (
+            <>
+                <nav className="social-media">
+                    <div className="container">
+                        <h3 id="home" className="m-0"></h3>
+                        <a href="https://github.com/chasebrownn" target="_blank">
+                            <img src={require('./content/images/twitch-logo.png').default} className='icons' />
+                        </a>
+                        <a href="https://t.me/nobilitytoken" target="_blank">
+                            <img src={require('./content/images/telegram-logo.png').default} className='icons' />
+                        </a>
+                        <a href="https://github.com/chasebrownn" target="_blank">
+                            <img src={require('./content/images/github-logo.png').default} className='icons' />
+                        </a>
+                        <a href="https://twitter.com/nobilitytoken?s=21" target="_blank">
+                            <img src={require('./content/images/twitter-logo.png').default} className='icons' />
+                        </a>
+                        <a href="https://www.reddit.com/u/nobilitycoin/?utm_source=share&utm_medium=ios_app&utm_name=iossmf" target="_blank">
+                            <img src={require('./content/images/reddit-logo.png').default} className='icons' />
+                        </a>
+                        <a href="https://www.instagram.com/nobilitycoin/" target="_blank">
+                            <img src={require('./content/images/instagram-logo.png').default} className='icons' />
+                        </a>
+                    </div>
+                </nav>
+                
 
-    return (
-        <>
-            <nav className="social-media">
-                <div className="container">
-                    <h3 id="home" className="m-0"></h3>
-                    <a href="https://github.com/chasebrownn" target="_blank">
-                        <img src={require('./content/images/twitch-logo.png').default} className='icons' />
-                    </a>
-                    <a href="https://t.me/nobilitytoken" target="_blank">
-                        <img src={require('./content/images/telegram-logo.png').default} className='icons' />
-                    </a>
-                    <a href="https://github.com/chasebrownn" target="_blank">
-                        <img src={require('./content/images/github-logo.png').default} className='icons' />
-                    </a>
-                    <a href="https://twitter.com/nobilitytoken?s=21" target="_blank">
-                        <img src={require('./content/images/twitter-logo.png').default} className='icons' />
-                    </a>
-                    <a href="https://www.reddit.com/u/nobilitytoken" target="_blank">
-                        <img src={require('./content/images/reddit-logo.png').default} className='icons' />
-                    </a>
-                    <a href="https://www.instagram.com/nobilitycoin/" target="_blank">
-                        <img src={require('./content/images/instagram-logo.png').default} className='icons' />
-                    </a>
-                </div>
-            </nav>
+                <div className="custom-nav text-center sticky-top">
+                    <div className="container">
+                        <div className="d-flex align-items-center custom-navbar flex-column flex-lg-row justify-content-lg-between" id="navmenu">
+                            
+                            <a href="/" className="navbrand d-none d-lg-inline-block py-3" rel="nofollow">
+                                <img src={require('./content/images/nobility-logo1.png').default} className='logo' />
+                            </a>
 
-            <nav class="navbar navbar-expand-lg navbar-dark custom-nav w-100 my-0 sticky-top">
-                <div className="container">
-                    <a class="navbar-brand rubik" href="#">
-                        <img src={require('./content/images/nobility-logo1.png').default} className='logo' />
-                    </a>
+                            <a href="/" className="navbrand d-lg-none text-white mb-5" rel="nofollow" id="closebtn">
+                                Close
+                            </a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                            <div className="d-flex flex-column flex-lg-row text-center">
+                                <div className="flex-fill">
+                                    <a href="/" className="custom-link px-4">
+                                        Home
+                                    </a>
+                                </div>
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/#roadmap">Roadmap</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/#team">Team</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Buy Now</a>
-                            </li>
-                        </ul>
+                                <div className="flex-fill">
+                                    <a href="/" className="custom-link px-4">
+                                        Roadmap
+                                    </a>
+                                </div>
+
+                                <div className="flex-fill">
+                                    <a href="/" className="custom-link px-4">
+                                        Team
+                                    </a>
+                                </div>
+
+                                <div className="flex-fill">
+                                    <a href="/" className="custom-link px-4">
+                                        Buy Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="d-flex d-lg-none justify-content-between align-items-center mobile-menu">
+                            <a href="/" className="navbrand text-white">
+                                Nobility
+                            </a>
+                            <div>
+                                <a href="" className="btn btn-link text-white btn-lg px-3 menu-btn" id="toggleMenu">
+                                    Menu
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </>
-    )
+            </>
+        )
+    }
 }
 
 export default Navbar
