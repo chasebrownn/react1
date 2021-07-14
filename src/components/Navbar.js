@@ -29,19 +29,19 @@ class Navbar extends Component {
                         <h3 id="home" className="m-0"></h3>
 
                         <a href="https://t.me/nobilitytoken" target="_blank">
-                            <img src={require('./content/images/telegram-logo.png').default} className='icons' />
+                            <img src={require('./content/images/telegram-logo.png').default} className='social-icons' />
                         </a>
                         <a href="https://github.com/chasebrownn" target="_blank">
-                            <img src={require('./content/images/github-logo.png').default} className='icons' />
+                            <img src={require('./content/images/github-logo.png').default} className='social-icons' />
                         </a>
                         <a href="https://twitter.com/nobilitytoken?s=21" target="_blank">
-                            <img src={require('./content/images/twitter-logo.png').default} className='icons' />
+                            <img src={require('./content/images/twitter-logo.png').default} className='social-icons' />
                         </a>
                         <a href="https://www.reddit.com/u/nobilitytoken" target="_blank">
-                            <img src={require('./content/images/reddit-logo.png').default} className='icons' />
+                            <img src={require('./content/images/reddit-logo.png').default} className='social-icons' />
                         </a>
                         <a href="https://www.instagram.com/nobilitycoin/" target="_blank">
-                            <img src={require('./content/images/instagram-logo.png').default} className='icons' />
+                            <img src={require('./content/images/instagram-logo.png').default} className='social-icons' />
                         </a>
                     </div>
                 </nav>

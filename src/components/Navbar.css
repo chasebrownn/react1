@@ -39,12 +39,12 @@
      cursor: pointer;
      opacity: 50%;
 }
- .icons{
+ .social-icons{
      height: 20px;
      padding-left: 15px;
      padding-top: 5px;
 }
- .social-media .icons:hover {
+ .social-media .social-icons:hover {
      cursor: pointer;
      opacity: 50%;
 }
