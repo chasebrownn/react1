@@ -31,11 +31,11 @@
      height: 80px;
      max-width: 1500px;
 }
- .logo{
+.logo{
      height: 60px;
      padding-left: 15px;
 }
- .logo:hover{
+.social-media .logo:hover{
      cursor: pointer;
      opacity: 50%;
 }
@@ -44,7 +44,7 @@
      padding-left: 15px;
      padding-top: 5px;
 }
- .icons:hover {
+ .social-media .icons:hover {
      cursor: pointer;
      opacity: 50%;
 }
