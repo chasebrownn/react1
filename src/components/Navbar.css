@@ -46,7 +46,7 @@
 }
  .social-media .social-icons:hover {
      cursor: pointer;
-     opacity: 50%;
+     opacity: 50% !important;
 }
  .navbar-container {
      display: flex;
