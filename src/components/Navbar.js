@@ -79,7 +79,7 @@ class Navbar extends Component {
                                 </div>
 
                                 <div className="flex-fill">
-                                    <a href="/#" className="custom-link px-4">
+                                    <a href="https://exchange.pancakeswap.finance/#/swap" className="custom-link px-4">
                                         Buy Now
                                     </a>
                                 </div>
