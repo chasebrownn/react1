@@ -47,7 +47,7 @@ function Cards() {
                                     text="With community involvement, the Nobility team will be hosting major LAN esports tournaments with big gamers, influencers, and content creators!‎‎‎‎ Expect updates on this soon!"
                                 label="FIRST TOURNAMENT"
                                 variant="news-card-dark"
-                                button="Coming Soon"
+                                button="COMING SOON"
                                 />
                                 <a name="roadmap"></a>
                             </div>
