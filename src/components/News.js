@@ -15,7 +15,7 @@ function Cards() {
                                 <NewsItem className="mb-3" src={require('./content/images/news1-header.png').default}
                                     text="Nobility token (NBL) will be available for trade on PancakeSwap via BSC (Binance Smart Chain) starting July 13th beginning exclusively on the PancakeSwap platform.    "
                                     label="FAIR LAUNCH"
-                                    path="https://exchange.pancakeswap.finance/#/swap"
+                                    path="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xA995276A5fb2742B51615bc7DD59F404De82E034"
                                     variant="news-card"
                                     button="BUY NOW"
                                 />

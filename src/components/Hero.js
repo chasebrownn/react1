@@ -61,7 +61,7 @@ function Hero() {
 
                                 <div className="btn btn-primary pulse btn-lg px-5"
                                     onClick={() => {
-                                        window.open("https://exchange.pancakeswap.finance/#/swap", "_blank")
+                                        window.open("https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xA995276A5fb2742B51615bc7DD59F404De82E034", "_blank")
                                     }}
                                 >Buy Now {'   '}<img style={{ maxHeight: "1.5em" }} src={require('./content/images/services/pancakeswap.png').default} alt="Pancakeswap" /></div>
                             </div>
