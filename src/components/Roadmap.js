@@ -32,7 +32,7 @@ function Roadmap() {
                                                 <p>Post launch our goal is to implement monthly esports tournaments with professional
                                                 gamers, influencers, and content creators. We also plan on adding Nobility as a payment
                                                 option on Noble.gg for merchandise and donations specifically for Noble streamers and
-                                                competitive gamers. Another crucial piece to quarter 2 is integrating weekly AMA’s</p>
+                                                competitive gamers. Another crucial piece to quarter 2 is integrating weekly AMA’s.</p>
                                             </li>
                                             <li class="event" data-date="Quarter 3">
                                                 <h3>Scale</h3>

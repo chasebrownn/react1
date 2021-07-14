@@ -15,7 +15,7 @@ function Tokenomics() {
 
                     <p className="mb-5 pd-5">For all network transactions done with Nobility: 4% is redistributed by weight to all existing holders on the Binance Smart Chain,
                         4% go toward our liquidity pool, 2% will be sent to a prize pool wallet which will represent the total prize pool for our monthly esports tournaments.
-                        The burn address is receiving relection rewards the same as a holder would giving the token an inherent burn, which will fluctuate dependant on volume.</p>
+                        The burn address is receiving reflection rewards the same as a holder would giving the token an inherent burn, which will fluctuate dependant on volume.</p>
                     <div className="tokenomics-display">
                         <img src={require('./content/images/tokenomics-main.png').default} className="roadmap-img" />
                     </div>
