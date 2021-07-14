@@ -11,6 +11,20 @@
   border-radius: 8px;
 }
 
+.news-card-comingsoon {
+  background-color: #7E00FF;
+  color: white;
+  border-radius: 8px;
+  opacity: 60%;
+}
+
+.news-card-comingsoon-dark {
+  background-color:#222836;
+  color: white;
+  border-radius: 8px;
+  opacity: 60%;
+}
+
 .news-card-dark {
   background-color:#222836;
   color: white;
