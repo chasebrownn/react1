@@ -6,7 +6,6 @@ import Home from './components/pages/Home';
 import HowToBuy from './components/pages/HowToBuy'; 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import howtobuy from './components/pages/HowToBuy';
 
 function App() {
 
