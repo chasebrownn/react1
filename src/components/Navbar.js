@@ -40,7 +40,7 @@ class Navbar extends Component {
                         <a href="https://www.reddit.com/u/nobilitytoken" target="_blank">
                             <img src={require('./content/images/reddit-logo.png').default} className='social-icons' />
                         </a>
-                        <a href="https://www.instagram.com/nobilitycoin/" target="_blank">
+                        <a href="https://www.instagram.com/nobilitytoken/" target="_blank">
                             <img src={require('./content/images/instagram-logo.png').default} className='social-icons' />
                         </a>
                     </div>
