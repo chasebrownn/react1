@@ -39,6 +39,14 @@
   overflow: hidden;
 }
 
+.card-social-insta{
+  height: 22px;
+}
+
+.card-social-insta:hover{
+  opacity: 50%;
+}
+
 .team-cards .team-label {
   position: absolute;
   bottom: 0;

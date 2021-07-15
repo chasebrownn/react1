@@ -15,6 +15,9 @@ function Card(props) {
                     
                 <div className="card-body">
                     <h5 className="cards__item__text">{props.text}</h5>
+                    <a target="_blank" href={props.insta}>
+                        <img src={props.image} className="card-social-insta"/>
+                    </a>  
                 </div>
             </div>
         </>
