@@ -1,0 +1,50 @@
+.howtobuy {
+    padding-top: 10rem;
+    background: #222836;
+    text-align: center;
+    align-items: center;
+}
+
+.buy-hero-button{
+    margin-right:3rem;
+}
+
+.howtobuy-header {
+    padding-bottom: 3rem;
+}
+
+.howtobuy-display {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.howtobuy div{
+    color: #fff;
+}
+
+.htb-steps{
+    margin: 3rem;
+}
+
+.howtobuy div a{
+    color: #7E00FF;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color:#7E00FF;
+    font-size: 32px;
+}

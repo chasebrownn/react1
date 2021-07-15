@@ -3,8 +3,10 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
+import HowToBuy from './components/pages/HowToBuy'; 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import howtobuy from './components/pages/HowToBuy';
 
 function App() {
 
@@ -25,7 +27,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component=
-            {Home} />
+            {Home} />  
+            <Route path='/HowToBuy' exact component=
+            {HowToBuy} />      
         </Switch>
       </Router>
     </>
