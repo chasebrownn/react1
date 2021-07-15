@@ -60,7 +60,7 @@ function Cards() {
                             text="Matthew Merrill"
                             label="Software Developer"
                             image={require("./content/images/instagram-logo.png").default}
-                            insta="https://www.instagram.com/mmerril/"
+                            insta="https://www.instagram.com/mcm_photography__/"
                         />
                     </div>
                     <div className="col-12 col-lg-4">

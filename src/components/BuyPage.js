@@ -26,7 +26,7 @@ function BuyPage () {
                                 
                                 <div className="buy-image"><img src={require('./content/images/zero.png').default}/></div>
                                 
-                                <p className='htb-step'><i>**If you lose these keywords you will NOT beable to get into your account, and your moneywill be locked up forever.**</i></p>
+                                <p className='htb-step'><i>**If you lose these keywords you will NOT be able to get into your account, and your moneywill be locked up forever.**</i></p>
                                 
                                 <p className='htb-step'>3. Click BNB</p>
                                 
