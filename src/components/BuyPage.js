@@ -28,7 +28,7 @@ function BuyPage () {
                                 
                                 <p className='htb-step'><i>**If you lose these keywords you will NOT beable to get into your account, and your moneywill be locked up forever.**</i></p>
                                 
-                                <p className='htb-step'>3. Click BNB - Receive - Copy the Wallet address (That will be the address you will send the BNB that you're about to purchase from crypto.com) </p>
+                                <p className='htb-step'>3. Click BNB</p>
                                 
                                 <div className="buy-image"><img className="img-fluid" src={require('./content/images/one.png').default}/></div>
                                                
@@ -124,7 +124,7 @@ function BuyPage () {
 
                                 <p className="htb-substep">- Click the Three lines by the Exchange tab.</p>
 
-                                <p className="htb-substep">- Click the Three lines by the Exchange tab.</p>
+                                <p className="htb-substep">- Set slippage to 12% or 15%</p>
 
                                 <p className="htb-substep">- Now save some BnB for the Network Fee when swapping, tap “select a currency” and paste the Nobility Contract address.</p>
 
