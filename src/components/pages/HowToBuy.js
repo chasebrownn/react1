@@ -16,7 +16,7 @@ export default function HowToBuy () {
                 <a className="anchor" name="metamask"></a>
 
                     <div data-aos="zoom-in-up">
-                            <h3>METAMASK</h3>
+                            <h2>METAMASK</h2>
                     </div>
                     <div className="metamask">
                         <ol>
@@ -35,7 +35,7 @@ export default function HowToBuy () {
                     <a className="anchor" name="trustwallet"></a>
 
                     <div data-aos="zoom-in-up">
-                            <h3>TRUST WALLET</h3>
+                            <h2>TRUST WALLET</h2>
                     </div>
                     <div className="trustwallet">
                     <ol>
