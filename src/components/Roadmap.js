@@ -49,7 +49,7 @@ function Roadmap() {
                                                 scaling our blockchain contract system as we adopt more gamers and gaming teams alike.
                                                 We also intend on developing a skin and in-game NFT marketplace and create our own
                                                 sportsbook allowing people to safely bet on esports tournaments and teams using Nobility
-                                                as the median. Finally after our fourth quarter we plan on launching our coin on Binance.</p>
+                                                as the median.</p>
                                             </li>
                                         </ul>
                                     </div>
