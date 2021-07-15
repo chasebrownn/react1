@@ -43,12 +43,12 @@ export default function HowToBuy () {
                         <div className='htb-steps'>2. Buy Binance Smart Chain $BNB tokens.</div>
                         <div className='htb-steps'>3. Add Binance Smart Chain to your network list by clicking on the dropdown and selecting "Custom RPC".</div>
                         <div className='htb-steps'>4. Enter the config below and save.</div>
-                        <div className='htb-steps'>5. Click here to go to Pancake Swap</div>
+                        <div className='htb-steps'>5. Click <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xA995276A5fb2742B51615bc7DD59F404De82E034">here</a> to go to Pancake Swap.</div>
                         <div className='htb-steps'>6. Press “Connect”.</div>
                         <div className='htb-steps'>7. Choose Trust Wallet.</div>
                         <div className='htb-steps'>8. Connect to your Trust Wallet to Pancake Swap.</div>
                         <div className='htb-steps'>9. Go back to Pancake Swap in your browser.</div>
-                        <div className='htb-steps'>10. If prompted, import the $MONSTA token.</div>
+                        <div className='htb-steps'>10. If prompted, import the $NBL token.</div>
                         <div className='htb-steps'>11. Click the Settings icon.</div>
                         <div className='htb-steps'>12. Set slippage to 6%.</div>
                         <div className='htb-steps'>13. Enter the amount you want to swap and click "Swap", and then "Confirm".</div>
