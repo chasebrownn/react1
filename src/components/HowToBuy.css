@@ -15,15 +15,32 @@
     padding-bottom: 6rem;
 }
 
+.htb-steps{
+    width: 90%;
+    margin:auto;
+    display: inline-block;
+    word-break: break-word;
+}
+
 .howtobuy div{
     color: #fff;
 }
 
-.htb-steps{
-    margin: 3rem;
+.htb-steps .buy-image{
+    padding: 2rem 3rem 2rem 2rem;
+    text-align: left;
 }
 
-.howtobuy div a{
+.htb-step{
+    text-align: left;
+}
+
+.htb-substep{
+    padding: 0rem 3rem 1rem 2rem;
+    text-align: left;
+}
+
+.howtobuy p a{
     color: #7E00FF;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -53,9 +70,3 @@ h3 {
     margin-top: -150px;
 }
 
-.howtobuy .metamask{
-    padding-bottom: 6rem;
-}
-
-.howtobuy .trustwallet{
-}
