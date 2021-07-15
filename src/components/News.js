@@ -11,7 +11,7 @@ function Cards() {
                 <Container className="large-container">
                     <Row className="align-items-center pb-5">
                         <Col xs={12} xl={3}>
-                            <div data-aos="zoom-in">
+                            <div data-aos="zoom-in" className="pulse">
                                 <NewsItem className="mb-3" src={require('./content/images/news1-header.png').default}
                                     text="Nobility token (NBL) will be available for trade on PancakeSwap via BSC (Binance Smart Chain) starting July 13th beginning exclusively on the PancakeSwap platform.    "
                                     label="FAIR LAUNCH"
@@ -36,7 +36,7 @@ function Cards() {
                                 <NewsItem className="mb-3" src={require('./content/images/news3-header.png').default}
                                     text="Nobility token (NBL) will be featured on CoinMarketCap, CoinGecko, and other tracking websites following the launch. We're looking to list on our first exchange in Q1."
                                     label="FEATURED LISTINGS"
-                                    variant="news-card-comingsoon"
+                                    variant="news-card-comingsoon-dark"
                                     button="COMING SOON"
                                 />
                             </div>
