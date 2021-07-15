@@ -52,7 +52,7 @@ function Cards() {
                             text="Cory Carruth"
                             label="Noble CEO"
                             image={require("./content/images/instagram-logo.png").default}
-                            insta="https://www.instagram.com/"
+                            insta="https://www.instagram.com/fenixceo"
                         />
                     </div>
                     <div className="col-12 col-lg-4">
