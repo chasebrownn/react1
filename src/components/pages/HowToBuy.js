@@ -4,7 +4,7 @@ import BuyPage from '../BuyPage';
 import Footer from '../Footer';
 import { Container, Row, Col } from 'react-bootstrap';
 
-export default function HowToBuy () {
+function HowToBuy () {
     return (
         <>
             <BuyPage/>
@@ -13,3 +13,6 @@ export default function HowToBuy () {
         
     )
 }
+
+
+export default HowToBuy

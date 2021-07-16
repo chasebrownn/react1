@@ -49,7 +49,6 @@ function Cards() {
                                 variant="news-card-comingsoon-dark"
                                 button="COMING SOON"
                                 />
-                                <a name="roadmap"></a>
                             </div>
                         </Col>
                     </Row>

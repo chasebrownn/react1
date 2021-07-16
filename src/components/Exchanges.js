@@ -24,7 +24,7 @@ function Exchanges() {
                         </a>
                     </Col>
                 </Row>
-                <a name="team"></a>
+                <a name="roadmap"></a>
             </Container>
         </div>
     )
