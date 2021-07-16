@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import Hero from '../Hero';
 import News from '../News';
+import Exchanges from '../Exchanges';
 import Roadmap from '../Roadmap';
 import Tokenomics from '../Tokenomics';
 import Brand from '../Brand';
@@ -13,6 +14,7 @@ function Home () {
         <>
             <Hero />
             <News/>
+            <Exchanges/>
             <Roadmap />
             <Tokenomics />
             <Brand />
