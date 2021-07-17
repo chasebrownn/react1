@@ -6,16 +6,16 @@ import { Button } from './Button';
 class Navbar extends Component {
 
     componentDidMount() {
-        let toggle   = document.getElementById("toggleMenu");
-        let menu     = document.getElementById("navmenu");
+        let toggle = document.getElementById("toggleMenu");
+        let menu = document.getElementById("navmenu");
         let closeBtn = document.getElementById("closebtn");
 
-        toggle.addEventListener("click", function(event) {
+        toggle.addEventListener("click", function (event) {
             event.preventDefault();
             menu.classList.toggle("open");
         });
 
-        closeBtn.addEventListener("click", function(event) {
+        closeBtn.addEventListener("click", function (event) {
             event.preventDefault();
             menu.classList.remove("open");
         });
@@ -45,12 +45,12 @@ class Navbar extends Component {
                         </a>
                     </div>
                 </nav>
-                
+
 
                 <div className="custom-nav text-center sticky-top">
                     <div className="container">
                         <div className="d-flex align-items-center custom-navbar flex-column flex-lg-row justify-content-lg-between" id="navmenu">
-                            
+
                             <a href="/" className="navbrand d-none d-lg-inline-block py-3" rel="nofollow">
                                 <img src={require('./content/images/nobility-logo1.png').default} className='logo' />
                             </a>
@@ -85,20 +85,20 @@ class Navbar extends Component {
                                 </div>
 
                                 <div className="flex-fill">
-                                    <a href="/HowToBuy" className="custom-link px-4">
+                                    <Link to="/buy" className="custom-link px-4">
                                         How To Buy
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
 
                         <div className="d-flex d-lg-none justify-content-between align-items-center mobile-menu">
                             <a href="/" className="navbrand text-white">
-                            <img src={require('./content/images/nobility-logo1.png').default} className='logo' />
+                                <img src={require('./content/images/nobility-logo1.png').default} className='logo' />
                             </a>
                             <div>
-                            <a href="" className="btn btn-link text-white btn-lg px-3 menu-btn" id="toggleMenu">
-                                <i className="fas fa-bars"/>
+                                <a href="" className="btn btn-link text-white btn-lg px-3 menu-btn" id="toggleMenu">
+                                    <i className="fas fa-bars" />
                                 </a>
                             </div>
                         </div>

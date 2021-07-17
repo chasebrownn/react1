@@ -1,15 +1,15 @@
 import React from 'react'
 import '../../App.css'
-import BuyPage from '../BuyPage';
+import PageNotFound from '../PageNotFound';
 import Footer from '../Footer';
 
-function HowToBuy() {
+function NotFoundPage() {
     return (
         <>
-            <BuyPage />
+            <PageNotFound />
             <Footer />
         </>
     )
 }
 
-export default HowToBuy
+export default NotFoundPage

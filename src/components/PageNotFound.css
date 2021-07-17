@@ -1,0 +1,30 @@
+.notFound {
+    padding-top: 10rem;
+
+    background: #222836;
+    text-align: center;
+    align-items: center;
+}
+
+.notFound-header {
+    padding-bottom: 3rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color:#7E00FF;
+    font-size: 32px;
+}

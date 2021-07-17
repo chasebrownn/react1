@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Main from './Main';
 import './App.css';
-import Home from './components/pages/Home';
-import HowToBuy from './components/pages/HowToBuy'; 
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -21,17 +19,10 @@ function App() {
   }, []);
 
   return (
-    <>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path='/' exact component=
-            {Home} />  
-            <Route path='/HowToBuy' exact component=
-            {HowToBuy} />      
-        </Switch>
-      </Router>
-    </>
+    <div className="App">
+      <Navbar />
+      <Main />
+    </div>
   );
 }
 

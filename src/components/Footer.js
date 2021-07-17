@@ -8,11 +8,7 @@ function Footer() {
     return (
         <div className="footer-main">
             <div className="page-footer font-small">
-
-                <div className="footer-copyright text-center py-4">© 2021 Copyright Nobility LLC | All Rights Reserved
-                    {/* <a href="https://mdbootstrap.com/"> MDBootstrap.com</a> */}
-                </div>
-
+                <div className="footer-copyright text-center py-4">© 2021 Copyright Nobility LLC | All Rights Reserved</div>
             </div>
             {/* <footer className="page-footer font-small blue pt-4">
                 <div className="container-fluid text-center text-md-left">
