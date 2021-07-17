@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.howtobuy .card.border-0.shadow{
+    background-color: #171d29;
+}
+
 .howtobuy-header {
     padding-bottom: 3rem;
 }
@@ -24,6 +28,10 @@
 
 .howtobuy div{
     color: #fff;
+}
+
+.howtobuy .buy-spacer{
+    height: 3rem;
 }
 
 .htb-steps .buy-image{
