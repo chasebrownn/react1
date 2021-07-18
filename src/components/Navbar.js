@@ -79,6 +79,12 @@ class Navbar extends Component {
                                 </div>
 
                                 <div className="flex-fill">
+                                    <a href="https://docs.nobilitytoken.com/nobility-litepaper/" className="custom-link px-4">
+                                        Litepaper
+                                    </a>
+                                </div>
+
+                                <div className="flex-fill">
                                     <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xA995276A5fb2742B51615bc7DD59F404De82E034" className="custom-link px-4">
                                         Buy Now
                                     </a>
