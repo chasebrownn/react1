@@ -63,7 +63,9 @@ function Hero() {
                                     onClick={() => {
                                         window.open("https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xA995276A5fb2742B51615bc7DD59F404De82E034", "_blank")
                                     }}
-                                >Buy Now {'   '}<img style={{ maxHeight: "1.5em" }} src={require('./content/images/services/pancakeswap.png').default} alt="Pancakeswap" /></div>
+                                >Buy Now {'   '}<img style={{ maxHeight: "1.5em" }} src={require('./content/images/services/pancakeswap.png').default} alt="Pancakeswap" />
+                                </div>
+
                             </div>
                         </div>
 
@@ -77,8 +79,12 @@ function Hero() {
                                 <h6 className="mb-0">Initial Burn</h6>
                             </div>
                             <div>
-                                <h5 className="mb-0">1 Year</h5>
+                                <h5 className="mb-0">4 Year</h5>
                                 <h6 className="mb-0">Liquidity Lock</h6>
+                            </div>
+                            <div className="px-5">
+                                <h5 className="mb-0">0xa99527...e034</h5>
+                                <h6 className="mb-0">Token Address</h6>
                             </div>
                         </div>
                         {/* <div class="d-flex mt-5 text-center">
